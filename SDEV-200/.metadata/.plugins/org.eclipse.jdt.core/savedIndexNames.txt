@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Camer\Desktop\Coding\College\SDEV-200\.metadata\.plugins\org.eclipse.jdt.core
+3291219399.index
+1935189579.index
+1865797976.index
