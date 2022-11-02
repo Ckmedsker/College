@@ -3,6 +3,8 @@ import java.util.Scanner;
 
 public class Exercise_2_3 {
 	public static void main(String[] args) {
+		// Clears the terminal screen
+		System.out.print("\033\143");
 		// Initializes the Scanner to get the feet input from the user
 		Scanner feetInput = new Scanner(System.in);
 		// Message to be displayed to user to get input

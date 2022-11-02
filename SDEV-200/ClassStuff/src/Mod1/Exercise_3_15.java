@@ -3,6 +3,9 @@ import java.util.Scanner;
 
 public class Exercise_3_15 {
   public static void main(String[] args) {
+		// Clears the terminal screen
+		System.out.printf("\033\143");
+
     // Generate a lottery number
     int lottery = (int)(Math.random() * 1000);
 
