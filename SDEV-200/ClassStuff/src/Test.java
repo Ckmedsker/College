@@ -4,6 +4,5 @@ public class Test {
 		// Clears the terminal screen
 		System.out.printf("\033\143");
 
-
   }
 }
