@@ -1,9 +1,0 @@
-import java.util.Scanner;
-
-public class Exercise_2_3 {
-	public static void main(String[] args) {
-		Scanner input = new Scanner(System.in);
-		System.out.print("Please enter a number in!: ");
-//		System.out.println(input);
-	}
-}
