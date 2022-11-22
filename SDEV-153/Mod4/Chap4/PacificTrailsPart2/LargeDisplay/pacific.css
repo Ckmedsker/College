@@ -1,0 +1,102 @@
+body{
+    background-color: #EAEAEA;
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom, #FFFFFF 20%, #90C7E3 60%, #FFFFFF 100%);
+}
+
+main {
+    padding-left: 2em;
+    padding-right: 2em;
+    display: block;
+    width: 730px;
+    height: auto;
+    position: relative;
+}
+
+
+h1{
+    background-color: #002171;
+    color:  #ffffff;
+    line-height: 120px;
+    font-size: 3em;
+    letter-spacing: 0.25em;
+    text-align: center;
+}
+
+nav{
+    font-weight: bold;
+    background: linear-gradient(to bottom, #FFFFFF, #90C7E3);
+    color: #BBDEFB;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 1em;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color:  #5C7FA3;
+}
+
+nav a:visited {
+    color: #344873;
+}
+
+nav a:hover {
+    color: #A52A2A;
+}
+
+h2{
+    color: #1976D2;
+}
+
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer{
+    font-size: .70em;
+    font-style: italic;
+    padding: 1em;
+    text-align: center;
+}
+
+.resort{
+    color: #1976D2;
+    font-size: 1.2em;
+}
+
+.wrapper{
+    background-color: #FFFFFF;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    min-width: 960px;
+    max-width: 2048px;
+}
+
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: inline;
+}
+
+#homehero {
+    background-image: url("./coast.jpg");
+    position: relative;
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
