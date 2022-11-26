@@ -1,0 +1,77 @@
+body {
+    overflow: hidden;
+}
+
+nav {
+    text-align: center;
+}
+
+
+
+.box1 {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 20%;
+  height: 25%;
+  background-color: #1B98E0;
+  font-size: 50px;
+}
+
+.box2 {
+  position: absolute;
+  top: 0%;
+  left: 20%;
+  width: 20%;
+  height: 25%;
+  background-color: #7BCDBA;
+  font-size: 50px;
+}
+
+.box3 {
+  position: absolute;
+  top: 0%;
+  left: 40%;
+  width: 20%;
+  height: 25%;
+  background-color: #1B98E0;
+  font-size: 50px;
+}
+
+.box4 {
+  position: absolute;
+  top: 0%;
+  left: 60%;
+  width: 20%;
+  height: 25%;
+  background-color: #7BCDBA;
+  font-size: 50px;
+}
+
+.box5 {
+  position: absolute;
+  top: 0%;
+  left: 80%;
+  width: 20%;
+  height: 25%;
+  background-color: #1B98E0;
+  font-size: 50px;
+}
+
+.box1:hover { background-color: darkcyan; }
+.box2:hover { background-color: darkcyan; }
+.box3:hover { background-color: darkcyan; }
+.box4:hover { background-color: darkcyan; }
+.box5:hover { background-color: darkcyan; }
+
+
+
+.oval {
+   position: absolute;
+   top: 10%;
+   left: -35%;
+   width: 170%;
+   height: 130%;
+   border-radius: 50%;
+   background-color: #A9A9A9;
+}
