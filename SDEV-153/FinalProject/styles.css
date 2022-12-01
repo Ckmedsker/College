@@ -1,5 +1,5 @@
 body {
-    overflow: hidden;
+  overflow: hidden;
 }
 
 nav {
@@ -7,6 +7,14 @@ nav {
 }
 
 
+h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  word-spacing: 7px;
+  font-size: 50px;
+}
 
 .box1 {
   position: absolute;
@@ -67,11 +75,11 @@ nav {
 
 
 .oval {
-   position: absolute;
-   top: 10%;
-   left: -35%;
-   width: 170%;
-   height: 130%;
-   border-radius: 50%;
-   background-color: #A9A9A9;
+  position: absolute;
+  top: 10%;
+  left: -35%;
+  width: 170%;
+  height: 130%;
+  border-radius: 50%;
+  background-color: #A9A9A9;
 }
