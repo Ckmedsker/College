@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Camer
+ *
+ */
+module JUnitInstallation {
+}
