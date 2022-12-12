@@ -9,7 +9,7 @@
 
 // public class Controller {
 
-// 	// getting all of the node locations from the FXML Filesj
+// 	// getting all of the node locations from the FXML Files
 // 	@FXML
 // 	private Label outputText;
 // 	@FXML
