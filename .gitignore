@@ -1,5 +1,7 @@
 .metadata/
 bin/
-SDEV-200/ClassStuff/src/Test.java
-SDEV-255/Mod5/NodeJSTutorial3/node_modules
-SDEV-255/Mod6/NodeJSTutorial4/node_modules
+Past-Classes/SDEV-200/ClassStuff/src/Test.java
+Past-Classes/SDEV-255/Mod5/NodeJSTutorial3/node_modules
+Past-Classes/SDEV-255/Mod6/NodeJSTutorial4/node_modules
+Past-Classes/SDEV-255/FinalProject/node_modules
+Past-Classes/SDEV-255/FinalProject/.env
