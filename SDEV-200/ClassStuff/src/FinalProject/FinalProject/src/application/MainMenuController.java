@@ -3,6 +3,7 @@ package application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
@@ -13,6 +14,9 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ChoiceBox;
 import javafx.scene.control.Label;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.KeyCode;
+import javafx.scene.input.KeyEvent;
+import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -28,6 +32,7 @@ public class MainMenuController implements Initializable {
 	@FXML private ImageView tetrisImage;
 	@FXML private Label modeLabel;
 	@FXML private ChoiceBox<String> modeChoice;
+	@FXML public GridPane grid;
 
 	private Stage stage;
 	private Scene scene;
@@ -48,9 +53,21 @@ public class MainMenuController implements Initializable {
 		PlayGameController playGameController = loader.getController();
 		playGameController.getMode(mode);
 
-
 		stage = (Stage)((Node)event.getSource()).getScene().getWindow();
 		scene = new Scene(root);
+		scene.setOnKeyPressed(new EventHandler<KeyEvent>() {
+			
+			@Override
+			public void handle(KeyEvent event) { 
+				if (event.getCode() == KeyCode.LEFT) {
+					playGameController.moveLeft();
+					}
+				else if (event.getCode() == KeyCode.RIGHT) {
+					playGameController.moveRight();
+					}
+			}
+		});
+
 		stage.setScene(scene);
 		stage.show();
 	}

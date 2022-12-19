@@ -61,7 +61,6 @@ app.get('/single-blog', (req, res) => {
 })
 
 
-
 // routes
 app.get('/', (req, res) => {
     res.redirect('/blogs');
